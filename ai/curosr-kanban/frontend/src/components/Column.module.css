@@ -1,0 +1,61 @@
+.column {
+  background: #e8eaed;
+  border-radius: 8px;
+  padding: 12px;
+  min-width: 280px;
+  max-width: 280px;
+  display: flex;
+  flex-direction: column;
+}
+
+.header {
+  margin-bottom: 12px;
+}
+
+.title {
+  margin: 0;
+  font-size: 16px;
+  font-weight: 600;
+  color: var(--dark-navy);
+  cursor: pointer;
+  padding: 4px 0;
+}
+
+.title:hover {
+  color: var(--blue-primary);
+}
+
+.titleInput {
+  width: 100%;
+  font-size: 16px;
+  font-weight: 600;
+  padding: 4px 8px;
+  border: 1px solid var(--blue-primary);
+  border-radius: 4px;
+  color: var(--dark-navy);
+}
+
+.cards {
+  flex: 1;
+  min-height: 100px;
+}
+
+.addBtn {
+  margin-top: 8px;
+  padding: 8px 12px;
+  background: var(--purple-secondary);
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.addBtn:hover {
+  opacity: 0.9;
+}
+
+.addBtn:focus-visible {
+  outline: 2px solid var(--accent-yellow);
+  outline-offset: 2px;
+}
